@@ -19,6 +19,12 @@ a {
 	text-decoration: none;
 }
 
+.special {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-stretch: condensed;
+}
+
 p {
 	font-family: helvetica;
 	font-size: 14px;
@@ -147,16 +153,16 @@ color: #cfe9ff;
 margin: 18px 0px 7px 15px;
 border-radius: 50px;
   object-fit: contain;
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
+ /*  -webkit-filter: grayscale(100%);*/  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+ /* filter: grayscale(100%);*/ /* FF 35+ */
  
 }
 
 
-.image_homepage:hover {
- -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%); /* FF 35+ */
-}
+/*.image_homepage:hover {
+ -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+}*/
 
 /* content-page specific */
 .content_box {
@@ -241,7 +247,9 @@ text-align: center;
 
 
 
-/*@@@@@@@@ Hamburger menu for mobile. Modified code from https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 @@@@@@ */
+/*@@@@@@@@ Hamburger menu for mobile. Modified code from https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 
+somehow not really needed since the original menu apparently looks totally fine on mobile.
+but still leaving it in case people need to re-size their desktop window very tiny @@@@@@ */
 
 .menu-toggle {
   display: inline-block;
