@@ -1,0 +1,368 @@
+
+
+body {
+margin: 0;	
+}
+
+header {
+	width: 100%;
+}
+
+h1 {
+	font-family: helvetica;
+	font-weight: bold;
+	background-color: #eaeaea;
+    padding: 16px 0px 16px 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 1.6;
+}
+
+ul {
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 1.6;
+}
+
+
+/* @@@@@@@@@@@ Header @@@@@@@@@@ */
+
+
+/* Logo */
+
+.logo {
+	color: white;
+	font-size: 67px;
+	display: inline;
+}
+
+.logo a {
+	color: white;
+	padding-left: 10px;
+}
+
+/* Navigation */
+
+.navigation_wrapper {
+width: 100%;
+height: 80px;
+background-color:#262626;
+}
+
+.navigation {
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
+	height: 60px;
+}
+
+.hamburger {
+display: none;	
+}
+
+nav {
+	max-width: 350px;
+	color: white;
+	float: right;
+	display:flex;
+}
+
+nav li {
+	display: inline;
+	margin: 0 5px 0 5px;
+}
+
+nav a {
+	color: white;
+	font-size: 30px;
+	
+}
+
+nav a:hover {
+	color: #cfe9ff;
+} 
+
+
+.currentlink {
+color: #cfe9ff;	
+}
+
+/* Banner home-page only */
+.banner_wrapper {
+	max-width: 2000px;
+	margin: 0 auto 0 auto;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #6c6c6c;
+	
+}
+
+/* @@@@@@@@@@ Main Content @@@@@@@@@@ */
+
+.main_content_wrapper {
+	max-width: 1000px;
+	height: auto;
+	margin: 0 auto 0 auto;
+	padding-top: 50px;
+}
+
+.main_content_container {
+	max-width: 1000px;
+	margin: 50px auto 0 auto;
+	margin-bottom: 50px;
+	display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+	
+}
+
+.homepage_content_box {
+	width: 500px;
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+
+.image_homepage {
+	max-width: 400px;
+	height: auto;
+	float: left;
+	/*border: 1px solid #000;*/
+margin: 18px 0px 7px 15px;
+border-radius: 50px;
+  object-fit: contain;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+ 
+}
+
+
+.image_homepage:hover {
+ -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+
+/* content-page specific */
+.content_box {
+	max-width: 90%;
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto 0 auto;
+}
+
+.image_contentpage {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	margin-left: 15px;
+background: gray;
+float: right;	
+margin: 18px 0px 7px 15px;
+}
+
+.image_contentpage_left {
+	max-width: 400px;
+	height: auto;
+margin-right:20px;
+background: gray;
+float: left;	
+}
+
+/* @@@@@@@ Bottom Navigation @@@@@@@ */
+
+.bottom_navigation {
+	width: 100%;
+	background-color: gray;
+	margin-bottom: -14px;
+}
+
+.navigation_box_container {
+	max-width: 450px;
+	margin: 0 auto 0 auto;
+	display: flex;
+    justify-content: space-between;
+	padding: 50px 0 50px 0;
+}
+
+
+.navigation_box {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+
+.navigation_box a:hover {
+ -webkit-filter: sepia(60%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: sepia(60%);	
+}
+
+
+
+/* @@@@@@@@ Footer @@@@@@@ */
+
+.footer_wrapper {
+	width: 100%;
+	
+background-color: #262626;
+}
+
+footer {
+max-width: 1000px;
+height: 45px;
+background-color: #262626;
+margin: 0 auto 0 auto;
+}
+
+footer p {
+	color: white;
+text-align: center;
+}
+
+
+
+/*@@@@@@@@ Hamburger menu for mobile. Modified code from https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 @@@@@@ */
+
+.menu-toggle {
+  display: inline-block;
+  line-height: 1em;
+  font-size: 1em;
+  color: #333;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: #c00;
+}
+
+
+.main-menu {
+
+  display: none;
+  left: -200px;
+  top: 0;
+  overflow-x: visible;
+  transition: left 0.3s ease,
+    	box-shadow 0.3s ease;
+  z-index: 999;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  /* Hide shadow w/ -8px while 'closed' */
+  -webkit-box-shadow: -2px 0 3px rgba(0,0,0,.5);
+     -moz-box-shadow: -2px 0 3px rgba(0,0,0,.5);
+          box-shadow: -2px 0 3px rgba(0,0,0,.5);
+ /* min-height: 100%; */
+  width: 150px;
+  background: #1a1a1a;
+  padding: 0;
+  display: inline-block;
+}
+
+.main-menu li {
+	margin: 0px;
+}
+.main-menu a {
+  display: block;
+  padding: .75em 15px;
+  line-height: 1em;
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: 1px dotted #383838;
+}
+
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background: #333;
+  text-decoration: none;
+}
+
+.main-menu .menu-close {
+  position: inherit;
+  right: 0;
+  top: 0;
+}
+
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+  display: block;
+  left: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  margin-right: 150px;
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+  position: absolute;
+  padding: 8px 4px 0px 0px;
+  border-bottom: none;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: absolute;
+  z-index: 1000;
+}
+
+
+
+
+
+/* @@@@@@@ Navigation adjustments for smaller screens @@@@@@@ */
+
+@media only screen and (max-width: 797px) {
+		
+	.logo {
+	font-size: 40px;	
+	}
+	
+	.navigation_wrapper {
+		height: 50px;
+	}
+	
+.hide_mobile {
+	display: none;
+}
+
+}
+
+
+
+/* @@@@@@@ to hide mobile items on desktop @@@@@@@@ */
+
+@media only screen and (min-width: 798px) {
+	.hide_desktop {
+		display: none;
+	}
+}
+
+
+
+/* TEST */
