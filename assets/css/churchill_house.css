@@ -2,6 +2,7 @@
 
 body {
 margin: 0;	
+font-size: 14px;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
 h1 {
 	font-family: helvetica;
 	font-weight: bold;
+	font-size: 20px;
 	background-color: #eaeaea;
     padding: 16px 0px 16px 25px;
 }
@@ -27,10 +29,12 @@ a {
 
 p {
 	font-family: helvetica;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: lighter;
 	line-height: 1.6;
 }
+
+
 
 ul {
 	font-family: helvetica;
@@ -133,7 +137,7 @@ color: #cfe9ff;
 }
 
 .title {
-	
+	font-size: 2em;
 }
 
 .homepage_content_box {
