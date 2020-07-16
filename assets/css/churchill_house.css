@@ -9,10 +9,15 @@ header {
 	width: 100%;
 }
 
+img {
+    max-width:100%;
+    height:auto;
+}
+
 h1 {
 	font-family: helvetica;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 3em;
 	background-color: #eaeaea;
     padding: 16px 0px 16px 25px;
 }
@@ -137,11 +142,11 @@ color: #cfe9ff;
     justify-content: space-between;
 
 }
-
+/*
 .title {
 	font-size: 2em;
 }
-
+*/
 .homepage_content_box {
 	width: 500px;
 	float:left;
@@ -184,7 +189,6 @@ border-radius: 50px;
 	max-width: 400px;
 	height: auto;
 	margin-left: 15px;
-background: gray;
 float: right;	
 margin: 18px 0px 7px 15px;
 }
@@ -215,10 +219,10 @@ float: left;
 
 
 .navigation_box {
-	width: 200px;
-	height: 200px;
+	max-width: 200px;
+	height: auto;
 	display: inline-block;
-	background-color: white;
+	background-color: gray;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -254,14 +258,18 @@ text-align: center;
 
 
 /*@@@@@@@@ Hamburger menu for mobile. Modified code from https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 
-somehow not really needed since the original menu apparently looks totally fine on mobile.
-but still leaving it in case people need to re-size their desktop window very tiny @@@@@@ */
+@@@@@@ */
 
 .menu-toggle {
-  display: inline-block;
-  line-height: 1em;
-  font-size: 1em;
-  color: #333;
+  
+      display: inline-block;
+    line-height: 1em;
+    font-size: 1em;
+    right: 0px;
+	margin-top: 8px;
+    background-color: #262626;
+    color: #333;
+    position: absolute;
 }
 
 .menu-toggle:hover,
@@ -364,7 +372,21 @@ but still leaving it in case people need to re-size their desktop window very ti
 .hide_mobile {
 	display: none;
 }
+/*
+.navigation_box {
+width: 150px;
+height: 150px:	
+}*/
 
+.main_content_wrapper {
+	padding-top: 0px;
+}
+.main_content_container {
+	margin: 0 auto 0 auto;
+}
+h1 {
+	font-size: 2em;
+}
 }
 
 
