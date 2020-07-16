@@ -18,8 +18,19 @@ h1 {
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 3em;
-	background-color: #eaeaea;
+	/*background-color: #eaeaea; */
+	background-color: #cfe9ff6b;
     padding: 16px 0px 16px 25px;
+}
+
+
+h3 {
+		font-family: helvetica;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #cfe9ff6b;
+	
+    padding: 3px 0px 3px 10px;
 }
 
 a {
@@ -34,7 +45,7 @@ a {
 
 p {
 	font-family: helvetica;
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: lighter;
 	line-height: 1.6;
 }
@@ -97,9 +108,13 @@ nav li {
 	margin: 0 5px 0 5px;
 }
 
+nav ul {
+	margin-top: 25px;
+}
+
 nav a {
 	color: white;
-	font-size: 30px;
+	font-size: 17px;
 	
 }
 
@@ -142,11 +157,7 @@ color: #cfe9ff;
     justify-content: space-between;
 
 }
-/*
-.title {
-	font-size: 2em;
-}
-*/
+
 .homepage_content_box {
 	width: 500px;
 	float:left;
@@ -160,20 +171,13 @@ color: #cfe9ff;
 	max-width: 400px;
 	height: auto;
 	float: left;
-	/*border: 1px solid #000;*/
 margin: 18px 0px 7px 15px;
 border-radius: 50px;
   object-fit: contain;
- /*  -webkit-filter: grayscale(100%);*/  /* Ch 23+, Saf 6.0+, BB 10.0+ */
- /* filter: grayscale(100%);*/ /* FF 35+ */
- 
+
 }
 
 
-/*.image_homepage:hover {
- -webkit-filter: grayscale(0%); 
-  filter: grayscale(0%);
-}*/
 
 /* content-page specific */
 .content_box {
@@ -185,7 +189,6 @@ border-radius: 50px;
 }
 
 .image_contentpage {
-	width: 100%;
 	max-width: 400px;
 	height: auto;
 	margin-left: 15px;
@@ -201,6 +204,35 @@ background: gray;
 float: left;	
 }
 
+
+
+
+
+/* @@@@@ Gallery - code modified from https://www.w3schools.com/css/css_image_gallery.asp @@@@ */
+
+.gallery {
+    margin: 5px;
+    float: left;
+    max-width: 100%;
+    width: 288px;
+}
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+.gallery_container {
+    margin-top: 50px;
+}
+
+
+
+
 /* @@@@@@@ Bottom Navigation @@@@@@@ */
 
 .bottom_navigation {
@@ -210,7 +242,7 @@ float: left;
 }
 
 .navigation_box_container {
-	max-width: 450px;
+	max-width: 650px;
 	margin: 0 auto 0 auto;
 	display: flex;
     justify-content: space-between;
@@ -221,6 +253,7 @@ float: left;
 .navigation_box {
 	max-width: 200px;
 	height: auto;
+	padding: 2px;
 	display: inline-block;
 	background-color: gray;
 	overflow: hidden;
@@ -255,6 +288,9 @@ footer p {
 text-align: center;
 }
 
+footer a {
+	color: #cfe9ff;	
+}
 
 
 /*@@@@@@@@ Hamburger menu for mobile. Modified code from https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 
@@ -372,11 +408,7 @@ text-align: center;
 .hide_mobile {
 	display: none;
 }
-/*
-.navigation_box {
-width: 150px;
-height: 150px:	
-}*/
+
 
 .main_content_wrapper {
 	padding-top: 0px;
@@ -387,6 +419,11 @@ height: 150px:
 h1 {
 	font-size: 2em;
 }
+
+nav ul {
+	margin-top: 0;
+}
+
 }
 
 
@@ -399,6 +436,3 @@ h1 {
 	}
 }
 
-
-
-/* TEST */
