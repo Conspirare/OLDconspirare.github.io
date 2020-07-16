@@ -253,7 +253,7 @@ float: left;
 .navigation_box {
 	max-width: 200px;
 	height: auto;
-	padding: 2px;
+	margin: 2px;
 	display: inline-block;
 	background-color: gray;
 	overflow: hidden;
