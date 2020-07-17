@@ -25,11 +25,11 @@ h1 {
 
 
 h3 {
-		font-family: helvetica;
+		font-family: sans-serif;
 	font-weight: bold;
-	font-size: 1.5em;
-	background-color: #cfe9ff6b;
-    padding: 3px 0px 3px 10px;
+	/*font-size: 1.5em;*/
+	font-size: 2em;
+/*	background-color: #cfe9ff6b; */
 }
 
 a {
@@ -39,7 +39,7 @@ a {
 
 p {
 	font-family: helvetica;
-	font-size: 1em;
+	font-size: 16px;
 	font-weight: lighter;
 	line-height: 1.6;
 }
@@ -47,7 +47,7 @@ p {
 
 ul {
 	font-family: helvetica;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: lighter;
 	line-height: 1.6;
 }
@@ -101,6 +101,7 @@ nav li {
 
 nav ul {
 	margin-top: 25px;
+	font-size: 14px;
 }
 
 nav a {
@@ -170,7 +171,7 @@ border-radius: 50px;
 
 .special {
     font-size: 1.5em;
-    font-family: sans-serif;
+    font-family: roboto;
     font-stretch: condensed;
 }
 
@@ -229,7 +230,7 @@ float: left;
 .bottom_navigation {
 	width: 100%;
 	background-color: gray;
-	margin-bottom: -14px;
+	margin-bottom: -16px;
 }
 
 .navigation_box_container {
@@ -276,6 +277,7 @@ margin: 0 auto 0 auto;
 footer p {
 color: white;
 text-align: center;
+font-size: 13px;
 }
 
 footer a {
@@ -407,7 +409,7 @@ z-index: 999; */
 	margin: 0 auto 0 auto;
 }
 h1 {
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 nav ul {
