@@ -1,8 +1,8 @@
-# conspirare.github.io
- 
-# H1 Churchill House 
 
-# H2 Project 2- Responsive website rationale 
+ 
+# Churchill House 
+
+## Project 2- Responsive website rationale 
  
 The brief for this project was to create a responsive website to increase public awareness about the significance of Robin Boyd’s Churchill House. 
 
@@ -18,9 +18,9 @@ The website uses Helvetica as body text as it is easy to read (Rello & Baeza-Yat
 
  
 
-# H1 Churchill House 
+# Churchill House 
 
-# H2 Project 2- Responsive website reflection 
+## Project 2- Responsive website reflection 
 
 In my original design I had included a small image gallery at the beginning of the content pages. As I was not able to create the gallery I originally had in mind without JavaScript, I compromised by adding the images at the bottom of the page and allowing visitors to click the images to view their original size.  
  
@@ -38,7 +38,7 @@ Final result can also be viewed here: https://conspirare.github.io/index.html
 ![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/original_sketch.PNG "Original Sketch")
 ![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/final_mobile.PNG "Mobile View Final")
 
-# H3 **Pages that were helpful during development:**
+### **Pages that were helpful during development:**
 
 https://www.w3schools.com/ 
 
@@ -56,7 +56,7 @@ https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d1
 
  
 
-# H3 **Sources:**
+### **Sources:**
 
 Chapman, C. (2010). Color Theory for Designers, Part 1: The Meaning of Color. Retrieved 17 July 2020, from https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/  
  
