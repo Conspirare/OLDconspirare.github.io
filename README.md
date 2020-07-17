@@ -16,9 +16,6 @@ To keep the site easy to use for a wide range of visitors, I included navigation
 
 The website uses Helvetica as body text as it is easy to read (Rello & Baeza-Yates, n.d), with a line-height of 1.6 and 16px size for good readability (Schwarz, 2019).  
 
- 
-
-# Churchill House 
 
 ## Project 2- Responsive website reflection 
 
@@ -33,9 +30,14 @@ If I were to do this again, I would want to make the content more visually engag
 Below is a snapshot showing my initial design, and the final result.  
 Final result can also be viewed here: https://conspirare.github.io/index.html
 
-![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/content.png "Content Page Final")
-![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/homepage.jpg "Home Page Final")
+### Original Sketch
 ![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/original_sketch.PNG "Original Sketch")
+
+### Final Result Desktop 
+![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/homepage.jpg "Home Page Final")
+![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/content.png "Content Page Final")
+
+### Final Result Mobile
 ![alt text](https://github.com/Conspirare/conspirare.github.io/raw/master/assets/images/rationale/final_mobile.PNG "Mobile View Final")
 
 ### **Pages that were helpful during development:**
